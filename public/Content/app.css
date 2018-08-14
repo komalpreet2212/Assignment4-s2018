@@ -1,1 +1,29 @@
 /* custom css goes here */
+body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: #333333;
+	margin-right: auto;
+	margin-left: auto;
+    width: 980px;
+    border-style: solid;
+    border-color: red;
+}
+h1 {
+    font-family: broadway;
+}
+header {
+	text-align: center;
+}
+form {
+    text-align: center;
+    background-color: rgb(223, 241, 141);
+}
+.leftColumn {
+	text-align: right;
+}
+.rightColumn {
+	text-align: left;
+}
+blockquote {
+    font-family: broadway;
+}

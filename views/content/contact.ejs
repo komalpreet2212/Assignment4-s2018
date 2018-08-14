@@ -7,6 +7,61 @@
       <% for(var count=0; count < authors.length; count++) { %>
       <li><%= authors[count] %></li>
       <% } %>
+      <h1><img alt="Member Registration" height="150" src="./Assets/Images/logo.png" width="890"></h1>
+                  <header>
+                      <h1>Member Registration</h1>
+                      <h4 class="auto-style1">Please complete all the fields below:</h4>                                
+                  </header>
+                 <form name="myForm" action="mailto:jdoe27@someplace.ca" onsubmit="return validateForm()" method="post">
+                  <table style="width: 100%">
+                      <tr>
+                        <td class="leftColumn">First Name:</td>
+                        <td class="rightColumn"><input type="text" name="First Name"></td>
+                      </tr>
+                      <tr>
+                      <td class="leftColumn">Last Name:</td>
+                      <td class="rightColumn"><input type="text" name="Last Name"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn">Address:</td>
+                        <td class="rightColumn"><input type="text" name="Address"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn">City:</td>
+                        <td class="rightColumn"><input type="text" name="City"></td>
+                      </tr>
+                      <tr>
+                         <td class="leftColumn">Postal Code:</td>
+                         <td class="rightColumn"><input type="text" name="Postal Code"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn">Province:</td>
+                        <td class="rightColumn"><input type="text" id="province" name="Province"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn">Age:</td>
+                        <td class="rightColumn"><input type="number" name="Age"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn">Password</td>
+                        <td class="rightColumn"><input type="password" name="Password"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn">Confirm Password:</td>
+                        <td class="rightColumn"><input type="password" name="Confirm Password"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn">E-mail:</td>
+                        <td class="rightColumn"><input type="text" name="Email"></td>
+                      </tr>
+                      <tr>
+                        <td class="leftColumn"><input type="submit" name="register" value="Register Now"></td>
+                        <td class="rightColumn"><input type="reset" name="clear" value="Clear Form"></td>
+                      </tr>
+                  </table>
+                  <b> <blockquote>Thank you! We pay attention to your feedback!</blockquote> </b>
+              </form>                       
+            </article>
 
     </ul>
   </div>

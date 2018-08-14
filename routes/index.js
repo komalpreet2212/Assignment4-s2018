@@ -21,7 +21,7 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('content/contact', { 
     title: 'Contact Me',
-    authors: ['Komal', 'Mark', 'Luke', 'Jaden', 'John']
+    authors: ['Komalpreet Kaur']
  });
 });
 
